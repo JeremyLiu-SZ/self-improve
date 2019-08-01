@@ -8,3 +8,9 @@
 //this for second change 
 
 //this for third change
+
+other command
+1. git log //to review every version of the file
+2. git log --pretty=oneline //show one line logfile
+3. git reset --hard "version id"
+4. git reflog //record of git log
