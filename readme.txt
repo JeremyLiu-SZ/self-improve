@@ -10,8 +10,8 @@
 //this for third change
 
 other command
-1. git log //to review every version of the file
-2. git log --pretty=oneline //show one line logfile
+1. git log # //to review every version of the file
+2. git log --pretty=oneline # //show one line logfile
 3. git reset --hard "version id" "file" // version back OR discard changers in stage
 4. git reflog //record of git log
 5. git status //the file status
@@ -25,3 +25,15 @@ remove
 link to origin 
 git remote add origin https://github.com/JeremyLiu-SZ/self-improve.git
 git push -u origin master
+
+branch
+1. git branch "branch_name" //create branch 
+2. git checkout "branch_name" //switch to branch
+OR
+1. git checkout -b "branch_name" 
+
+3. git branch //view the branch
+4. git merge "branch_name" //merge the branch to master
+5. git branch -d "branch_name" //remove branch
+
+6. git merge --no-ff -m "" "branch_name"
