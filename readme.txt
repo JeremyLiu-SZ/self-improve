@@ -21,3 +21,7 @@ other command
 remove
 1. git rm 
 2. git comit -m ""
+
+link to origin 
+git remote add origin https://github.com/JeremyLiu-SZ/self-improve.git
+git push -u origin master
