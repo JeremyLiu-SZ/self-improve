@@ -38,6 +38,8 @@ OR
 
 6. git merge --no-ff -m "" "branch_name"
 
+7. git merge -D "branch_name" //force remove
+
 
 stash
 1. git stash //save 
@@ -49,3 +51,11 @@ OR
 
 4. git stash list //view the stash 
    git stash apply stash@{0}
+
+
+information of origin 
+1. git remote
+2. git remote -v //detail
+
+push to origin
+1. git push origin "branch_name"
