@@ -59,3 +59,15 @@ information of origin
 
 push to origin
 1. git push origin "branch_name"
+
+tag
+1. git tag "tag" "version"
+2. git tag -a "tag" -m "" "version"
+3. git tag -d "tag"
+
+4. git push origin "tag"
+5. git push origin --tags
+
+remove tag from origin
+1. git tag -d tag
+2. git push origin :refs/tags/"tag"
