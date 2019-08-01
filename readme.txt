@@ -37,3 +37,15 @@ OR
 5. git branch -d "branch_name" //remove branch
 
 6. git merge --no-ff -m "" "branch_name"
+
+
+stash
+1. git stash //save 
+
+2. git stash apply 
+3. git stash drop
+OR
+2. git stash pop
+
+4. git stash list //view the stash 
+   git stash apply stash@{0}
